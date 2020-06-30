@@ -1,0 +1,80 @@
+header img {
+    width: 150px;
+    height: 65px;
+    background-color: white;
+  
+}
+
+header {
+    height: 10vh;
+}
+
+.icon-menu {
+    position: absolute;
+    top: 30px;
+    font-size: 25px;
+}
+
+.menu-list-modal {
+    background-color: rgba(0, 0 ,0, 0.85);
+    color: white;
+    height: 90vh;
+    position: fixed;
+    left: -100vw;
+    transition: .3s;
+    z-index: 10;
+
+}
+
+.menu-list-modal.is-active {
+    left: 0;
+}
+.title-menus {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.title-menus ul li  {
+    list-style: none;
+    padding-top: 35px;
+  
+
+}
+.title-menus ul li a {
+    color: red;
+    font-size: 25px;
+}
+
+.menu-icon {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu-icon ul li  {
+    padding-top: 35px;
+    
+}
+
+.menu-icon ul li a {
+   color: red;
+    font-size: 30px;
+}
+
+.menu-icon ul li  {
+    list-style: none;
+}
+
+@media (max-width: 768px) { 
+   
+ }
+
+
+
+
+
+
